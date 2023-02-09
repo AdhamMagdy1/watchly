@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Watch.ly</title>
+  </head>
+  <body>
+    <div class="mobileMenu">
+      <nav class="navbar__menu">
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <ul id="navbar__list"></ul>
+        </nav>
+
+    </div>
+    <header>
+      <div class="logo"><a href="#HOME" class="logo-text">Watch.ly</a></div>
+      <nav class="navbar__menu">
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <ul id="navbar__list"></ul>
+        </nav>
+      <i id="m" class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </header>
+    <main>
+      <section id="HOME">
+        <div class="hero">
+          <div class="text">
+            <h3>Be smart</h3>
+            <h1>
+              Keep on track, <br />
+              be elegant with our <br />
+              smart watch
+            </h1>
+            <h6>Avilable in meny colors and size that fits you.</h6>
+            <a href="#">LEARN MORE</a>
+          </div>
+          <div class="slider">
+            <i class="fa-solid fa-angle-left" onclick="plusSlides(-1)"></i>
+            <div class="img-holder fade">
+              <img src="/Resource/black..png" alt="" />
+            </div>
+            <div class="img-holder fade">
+              <img src="/Resource/ss2.png" alt="" style="transform: rotateZ(22deg);" />
+            </div>
+            <div class="img-holder fade">
+              <img src="/Resource/white.png" alt=""  />
+            </div>
+            <i class="fa-solid fa-angle-right"onclick="plusSlides(1)"></i>
+          </div>
+        </div>
+        <div class="subscribe">
+       
+          <form action="#">
+            <input id="email" type="email" placeholder="e-mail" required />
+            <button>SUBSCRIBE</button>
+          </form>
+          <h1>NEW IPHO-X SMART</h1>
+         
+        </div>
+      </section>
+      <section id="ABOUT">
+        <div class="about-text">
+          <h3>We are the new name of style and tech</h3>
+          <h1>
+            Watch.ly is <br />
+            a smart watch company <br />
+            that focus on devolping <br />new tech that fits you!
+          </h1>
+          <h6>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
+            consectetur, expedita quisquam sed ut enim explicabo excepturi hic
+            dicta voluptatibus sit deleniti, 
+          </h6>
+          <button>VIEW DETAILS</button>
+        </div>
+        <div class="about-img">
+          <img src="./Resource/About Image (2).png" alt="" />
+        </div>
+      </section>
+      <section id="PRODUCTS">
+        <h1>Our products</h1>
+        <h6>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+          provident ratione. <br />
+          Quos tenetur veritatis reprehenderit.
+        </h6>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-img">
+              <img src="./Resource/black watch.png" alt="" />
+            </div>
+            <div class="card-text">
+              <h1>NEW IPHO-X SMART</h1>
+              <h6>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                corporis.
+              </h6>
+              <a href="#">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./Resource/silver.png" alt=""/>
+            </div>
+            <div class="card-text">
+              <h1>NEW IPHO-X SMART</h1>
+              <h6>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                corporis.
+              </h6>
+              <a href="#">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./Resource/wihte rounded.png" alt="" />
+            </div>
+            <div class="card-text">
+              <h1>NEW IPHO-X SMART</h1>
+              <h6>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                corporis.
+              </h6>
+              <a href="#">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="TUTORIAL">
+        <div class="tutorial-txt">
+          <h3>ABOUT TUTORIAL</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+            in adipisci eos nequ.
+          </p>
+        </div>
+        <div class="tutorial-view">
+          <div class="view">
+            <div class="icon">
+              <i class="fa fa-gear"></i>
+            </div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+              maxime?
+            </div>
+          </div>
+          <div class="view">
+            <div class="icon">
+              <i class="fa fa-clock"></i>
+            </div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+              maxime?
+            </div>
+          </div>
+          <div class="view">
+            <div class="icon">
+              <i class="fa fa-fire-flame-curved"></i>
+            </div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+              maxime?
+            </div>
+          </div>
+          <div class="view">
+            <div class="icon">
+              <i class="fa fa-person-running"></i>
+            </div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+              maxime?
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="CONTACT">
+        <div class="get-in-touch">
+          <h1>Get In Touch</h1>
+        </div>
+        <div class="contact-bord">
+          <div class="contact-form">
+            <form>
+              <div class="name">
+                <input
+                  class="first-name"
+                  type="text"
+                  placeholder="First Name"
+                />
+                <input type="text" placeholder="Last Name" />
+              </div>
+              <input class="email" type="email" placeholder="email" />
+              <textarea class="message" placeholder="Message"></textarea>
+
+              <button>SEND MESSAGE</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h2>contact info</h2>
+            <div class="phone">
+              <i class="fa-solid fa-phone"></i>+(123)-533-344
+            </div>
+            <div class="email-info">
+              <i class="fa-solid fa-envelope"></i>info@watch.ly
+            </div>
+            <div class="social-links-info">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+            </div>
+          </div>
+        </div>
+        <div class="end-footer">
+          <h1>WATCH.LY &copy</h1>
+          <h3>Landing page project by <a href="https://www.linkedin.com/in/adhammagdy/" target="_blank">Adham Magdy</a></h3>
+        </div>
+      </section>
+    </main>
+    <i class="fa-solid fa-circle-arrow-up"></i>
+    <footer>
+      <div class="copyright">Watch.ly &copy;</div>
+      <div class="social-links-footer">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
